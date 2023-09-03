@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>R U J Shopping</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="navbar.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="footer.css">
+<!-- <style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style> -->
+</head>
+<body>
+
+
+ <!-- Navbar -->
+
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>dropdown Menu</title>
+  </head>
+  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">     
+    <!-- <!!!!!navbar!!!!> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a> <img src="download__1_-removebg-preview.png"  width="50"  > </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Collections
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>            
+                <li><a class="dropdown-item" href="LEVI'S.html">Levi's</a></li>
+                <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </li>
+       
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- <!!!!!navbar!!!!> -->
+   
+
+
+
+    <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+
+
+    
+    
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+  
+    
+    
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 500000s;
+    }
+    
+    @keyframes fade {
+      from {opacity: 1} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+
+    <!-- <!!!!!!slider start!!!!!!!!!!> -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-sm-6">
+
+
+
+
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <img src="pexels-keira-burton-6146929.jpg" style=" width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="pexels-barbara-olsen-7869594.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="pexels-barbara-olsen-7869555.jpg" style="width: 100%;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+     <!-- <!!!!!!slider end!!!!!!!!!!> -->
+
+
+
+
+
+
+
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+ 
+    
+
+
+               
+   
+
+
+
+
+
+
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Mens Clothing</h3>
+          <h5>Washing Wear , Cotton , Khaddar <span class="w3-opacity"> <br> 60% OFF TILL May 2, 2024</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <p><strong><u>JACKETS</u></strong>     
+            <br>These jackets are designed to keep you dry during rainy weather. They are usually made from waterproof or water-resistant materials and have features like sealed seams and hoods to prevent rain from getting in.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                
+              </div>
+              
+              <div class="w3-col l10 m9">
+                <h3><u>George</u> <span class="w3-opacity w3-medium">March 3, 2019, 6:69 PM</span></h3>
+                <p><b>Great Product !</b></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Shoes Review</h3>
+          <h5> RUJ Shopping <span class="w3-opacity">April 23, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+        
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><u>Wilson</u> <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your Website ! Simple & the Best  Ecommerce Website we can buy everything from here Secondly Shoes Designs Are Very Good ... </p><br>
+              </div>
+  
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              
+              <div class="w3-col l10 m9">
+                <h4><u>Angie </u><span class="w3-opacity w3-medium">April 23, 2017, 9:12 PM</span></h4>
+                <p>Love Your Shoes!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Jacket Review </h3>
+          <h5>R U J Shopping  <span class="w3-opacity">July 13, 2021</span></h5>
+        </div>
+
+        <div class="w3-justify">
+         
+        
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><u>Charlie</u> <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>Delivery Time Is Pretty Good</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><u>John</u> <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>This Jacket Got Some Good Features</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><u>Antonio</u> <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the My Own One !</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="Profile Pic copy.jpg"  style=" padding-right: 100px; width:190px; padding: 0px;" class="w3-grayscale">
+        <div style="height: 100px; width: 300px;" class="w3-container w3-black">
+          <h4><u>Review </u> <br> </h4>
+<h6 style="height: 10px;">
+Mukhtar Ali  :-
+</h6>    
+          <p>It Was Really Good Quality Of Cloth. </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Items</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img style="height: 60px;" src="DENIM-SHIRT-DARK-BLUE-at-Charcoal-Clothing-110.jpg " alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <a class="nav-link" href="LEVI'S.html"><b><u> Levi's </u></b></a>
+            <span>Classic Denim Jacket ,  Distressed Denim Jacket , Chore Jacket</span>
+          </li>
+          <li class="w3-padding-16">
+            <img style="height: 40px; width: 42px;" src="wool-sweaters-2021-lead-1631111249.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <a class="nav-link" href="adidas.html"><b><u> Adidas </u></b></a>
+            <span>Cardigan , Polo Neck , Crew Neck</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="swoosh-logo-black.jfif" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <a class="nav-link" href="adidas.html"><b><u> NIKE </u></b></a>
+            <span>Suit Jacket</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertising</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <iframe width="380" height="215" src="https://www.youtube.com/embed/7xMSEPLmHhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+            <span class="w3-tag w3-black w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-black w3-margin-bottom">Clothing</span> <span class="w3-tag w3-black w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      
+    
+      
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+
+
+
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+      line-height: 1.5;
+      font-family: 'Poppins', sans-serif;
+  }
+  *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+  .container{
+      max-width: 1170px;
+      margin:auto;
+  }
+  .column{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+  }
+  .footer{
+      background-color: rgb(85, 81, 81);
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+  }
+  .footer-col h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #bbbbbb;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+  }
+  .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+      color: #24262b;
+      background-color: #ffffff;
+  }</style>
+<!-- footer start  -->
+
+<footer class="footer">
+<div class="container">
+  <div class="column">
+      <div class="footer-col">
+          <h4>RUJ</h4>
+          <ul>
+              <li><a href="home.html">home</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contactus.html">contact us</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+              <li><a href="nike.html">NIKE</a></li>
+              <li><a href="adidas.html">ADIDAS</a></li>
+              <li><a href="LEVI'S.html">LEVI'S</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+  </div>      
+</div>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>

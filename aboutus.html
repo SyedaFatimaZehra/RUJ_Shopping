@@ -1,0 +1,527 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- font awesome link -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <!-- Navbar -->
+
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+      <link rel="stylesheet" href="style.css" />
+      <title>dropdown Menu</title>
+    </head>
+    <body>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">     
+      <!-- <!!!!!navbar!!!!> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a> <img src="download__1_-removebg-preview.png"  width="50"  > </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Collections
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>            
+                  <li><a class="dropdown-item" href="LEVI'S.html">Levi's</a></li>
+                  <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+              </li>
+         
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <!!!!!navbar!!!!> -->
+
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,600&family=Poppins:wght@100;300;400;500&family=Vina+Sans&display=swap');
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --green:#27ae60;
+    --border:1rem solid rgba(0,0,0,1);
+    --border:1rem solid var(--black);
+    --border:0 .5rem 1rem  rgba(0,0,0,1);
+  
+   
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--black);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover{
+    background: var(--dark-color);
+}
+
+/* header style start  */
+.header .header-1{
+    background: #fff;
+    padding: 1.5rem 9%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+    text-decoration: none;
+
+}
+.header .header-1 .logo i{
+  color: var(--green);
+  text-decoration: none;
+}
+.header .header-1  .search-form{
+    width: 50rem;
+    height: 5rem;
+    border: 2px solid gray;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: var(--border);
+
+}
+
+.header .header-1  .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+.header .header-1  .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+
+}
+
+.header .header-1  .search-form label:hover{
+    color: var(--green);
+}
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color: var(--green);
+}
+
+#search-btn{
+    display: none;
+}
+
+.header {
+    background: var(--green);
+}
+.header .navbar{
+    text-align: center;
+}
+
+
+.header .navbar a{
+   color: white;
+   padding: 1.2rem;
+   font-size: 1.7rem;
+   text-decoration: none;
+   align-items: center;
+}
+
+.header  .navbar a:hover{
+    color: var(--black);
+}
+
+.header .active{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+}
+
+.navbar-nav a{
+ margin-right: 60px;
+
+ 
+}
+
+#navbarNav ul li a{
+  color: white;
+}
+
+
+ 
+p{
+    color: rgb(150, 147, 147);
+    margin-left: 110px;
+    font-size: 1.5rem;
+}
+
+ #logo{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: var(--black);
+    text-decoration: none;
+    color: rgb(54, 153, 54);
+    margin-top: 60px;
+   
+
+}
+
+.s1{
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px ;
+    border-radius: 8px;
+    margin-left: 500px;
+}
+.s1:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+
+.s2{
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px ;
+    border-radius: 8px;
+    
+ 
+}
+.s2:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+
+
+
+/* footer style start  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.column{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(85, 81, 81);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+    
+      .about-section {
+        padding: 100px 0;
+      }
+      .about-description {
+        padding: 20px;
+      }
+      .company-logo {
+        max-width: 100%;
+        height: auto;
+      
+      }
+
+      
+      
+
+
+
+    </style>
+  </head>
+  <body>
+
+  
+
+<br><br>
+
+    <div>
+      <header class=" bg-light text-black text-center py-5 md-5">
+          <h1>About Us</h1>
+          <p>We are a passionate team dedicated to...</p>
+        </header>
+        <div class="bg-dark"></div>
+        
+        
+    <div class="form">
+      <div class="row about-section bg-light text-dark text-center py-5">
+          <div class="col-md-6 about-description">
+              
+              <h2>Description</h2>
+              <p>Welcome to our clothing website, where fashion meets innovation and style knows no bounds. At RUJ SHOPPING, we're more than just an online apparel store; we're a destination for individuals who appreciate the artistry and diversity of clothing. Founded with a passion for delivering high-quality fashion at affordable prices, our journey began with a vision to empower people to express themselves through their wardrobe. .</p>
+            
+            </div>
+            
+        <div class="col-md-6">
+        
+     <img src="download (1).png" alt="">
+        </div>
+      </div>
+    </div>
+    <header class=" text-dark text-center py-5">
+      
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="text-center">
+          <h1><b>Were here to help you get online.</b></h1>
+          <p> Welcome to our clothing website, where fashion meets innovation and style knows no bounds. At [Website Name], we're more than just an online apparel store; we're a destination for individuals who appreciate the artistry and diversity of clothing. Founded with a passion for delivering high-quality fashion at affordable prices, our journey began with a vision to empower people to express themselves through their wardrobe. 
+          </p>
+        <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <!-- Left Image Card -->
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <img src="download (1).png" class="card-img-top" alt="Left Image">
+        </div>
+      </div>
+
+      <!-- Right Image Card -->
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <img src="download (1).png" class="card-img-top" alt="Right Image">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Who we are.</h2>
+            <p>We’re the longest-running WordPress.org recommended host, supported by the world’s most popular site builder. We provide comprehensive tools globally so anyone, novice or pro, can thrive online.</p>
+        </div>
+        <div class="col-md-6">
+            <h2>What we do.</h2>
+            <p>We believe in creating a better, safer web for everyone. We fight spammers, block unwanted pornography, and invest in countless open-source projects to push projects to their full potential. </p>
+        </div>
+    </div>
+  </div>
+
+  <div id="scrollTarget" class="mt-5"></div>
+      <h1>Meet our Team</h1>
+    
+    </header>
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="download (1).png" class="card-img-top" alt="Member 1">
+            <div class="card-body">
+              <p class="text-title">JIBRAN AZIZ</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="download (1).png" class="card-img-top" alt="Member 2">
+            <div class="card-body">
+              <p class="text-title">MUHAMMAD USAID</p>
+            
+            </div>
+          </div>
+        </div>
+    </section>
+
+<!-- footer start  -->
+
+<footer class="footer">
+  <div class="container">
+      <div class="column">
+          <div class="footer-col">
+              <h4>RUJ</h4>
+              <ul>
+                  <li><a href="home.html">home</a></li>
+                  <li><a href="aboutus.html">About us</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="contactus.html">contact us</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                  <li><a href="nike.html">NIKE</a></li>
+                  <li><a href="adidas.html">ADIDAS</a></li>
+                  <li><a href="LEVI'S.html">LEVI'S</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+      </div>      
+  </div>
+</footer>
+    
+  
+  <br>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+    </html>
+    
+    
+  
+      
